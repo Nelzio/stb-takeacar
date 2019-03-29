@@ -17,3 +17,6 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+# npm dependeces
+package-lock.json
