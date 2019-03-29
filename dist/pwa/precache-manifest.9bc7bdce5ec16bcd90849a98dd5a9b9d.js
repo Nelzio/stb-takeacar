@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/29b455ee.731d6c6c.js"
   },
   {
-    "revision": "32d834bba6d2cf793ca0",
-    "url": "/js/2d0c4e21.073dd117.js"
+    "revision": "b51454cd9af77fdc5d35",
+    "url": "/js/2d0c4e21.00864d7d.js"
   },
   {
     "revision": "89dec5cbb3635ac060ba",
     "url": "/js/4b47640d.b611ff6a.js"
   },
   {
-    "revision": "d70fd878c3b1ee2d12e3",
+    "revision": "32c2fe85c9e310fd0e2c",
     "url": "/css/app.e16d29be.css"
   },
   {
-    "revision": "d70fd878c3b1ee2d12e3",
-    "url": "/js/app.21db377f.js"
+    "revision": "32c2fe85c9e310fd0e2c",
+    "url": "/js/app.ab811b3f.js"
   },
   {
     "revision": "0f91b5762ab1caa4400c",
@@ -40,20 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/f59cca30.e7d9384c.js"
   },
   {
-    "revision": "499a292e3045dafd6427",
-    "url": "/js/vendor.5c6688d2.js"
-  },
-  {
-    "revision": "e9dbbe8a693dd275c16d32feb101f1c1",
-    "url": "/fonts/KFOkCnqEu92Fr1MmgVxIIzQ.e9dbbe8a.woff"
-  },
-  {
-    "revision": "a1471d1d6431c893582a5f6a250db3f9",
-    "url": "/fonts/KFOlCnqEu92Fr1MmSU5fBBc-.a1471d1d.woff"
-  },
-  {
-    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
-    "url": "/fonts/KFOmCnqEu92Fr1Mu4mxM.bafb105b.woff"
+    "revision": "c9a07de1164fb351166b",
+    "url": "/js/vendor.605d2e93.js"
   },
   {
     "revision": "de8b7431b74642e830af4d4f4b513ec9",
@@ -66,6 +54,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8c2ade503b34e31430d6c98aa29a52a3",
     "url": "/fonts/KFOlCnqEu92Fr1MmYUtfBBc-.8c2ade50.woff"
+  },
+  {
+    "revision": "e9dbbe8a693dd275c16d32feb101f1c1",
+    "url": "/fonts/KFOkCnqEu92Fr1MmgVxIIzQ.e9dbbe8a.woff"
+  },
+  {
+    "revision": "a1471d1d6431c893582a5f6a250db3f9",
+    "url": "/fonts/KFOlCnqEu92Fr1MmSU5fBBc-.a1471d1d.woff"
+  },
+  {
+    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
+    "url": "/fonts/KFOmCnqEu92Fr1Mu4mxM.bafb105b.woff"
   },
   {
     "revision": "bca3a1873ac988faff0817eca96b2d86",
@@ -88,10 +88,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/icons/icon-128x128.png"
   },
   {
-    "revision": "5988ed49bab6921d143bd8d6ef72d2a1",
-    "url": "/statics/Imagens/huynday.png"
-  },
-  {
     "revision": "3020c8ac2c2872dec7741e5948520093",
     "url": "/statics/quasar-logo.png"
   },
@@ -112,14 +108,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/icons/ms-icon-144x144.png"
   },
   {
-    "revision": "7a34f3eb64a2aa5361253f123ce59301",
-    "url": "/statics/Imagens/toyota-logo.png"
-  },
-  {
-    "revision": "66d7719a8ca03c1a591444c013802817",
-    "url": "/statics/icons/icon-384x384.png"
-  },
-  {
     "revision": "6825a83008b8237dced009b0f69bfcc0",
     "url": "/statics/Imagens/ford+grey.png"
   },
@@ -128,16 +116,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/Imagens/semafuro.png"
   },
   {
+    "revision": "7a34f3eb64a2aa5361253f123ce59301",
+    "url": "/statics/Imagens/toyota-logo.png"
+  },
+  {
+    "revision": "66d7719a8ca03c1a591444c013802817",
+    "url": "/statics/icons/icon-384x384.png"
+  },
+  {
+    "revision": "5988ed49bab6921d143bd8d6ef72d2a1",
+    "url": "/statics/Imagens/huynday.png"
+  },
+  {
     "revision": "a13b2bd5261e2df374128df1aab93001",
     "url": "/statics/icons/icon-512x512.png"
   },
   {
-    "revision": "4e8ec6944deb525f2a38343b34dd4ecc",
-    "url": "/statics/Imagens/semafuro.xcf"
-  },
-  {
     "revision": "4cab443ad65b024fb5a9bef19497d5ff",
     "url": "/statics/Imagens/bmw.png"
+  },
+  {
+    "revision": "4e8ec6944deb525f2a38343b34dd4ecc",
+    "url": "/statics/Imagens/semafuro.xcf"
   },
   {
     "revision": "0003dfb73239341814e0026a0d290453",
@@ -148,7 +148,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/Imagens/Jeep.png"
   },
   {
-    "revision": "0645aa252619d0bf182845915b8178fe",
+    "revision": "69ec20d588c22ab3cab7382cfc449d2b",
     "url": "/index.html"
   },
   {
