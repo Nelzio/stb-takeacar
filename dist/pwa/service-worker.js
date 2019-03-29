@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.1.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.df1ec7ea306340f5219d1507b5d47fa5.js"
+  "precache-manifest.60498af7b99ff78ae3dd0944d8e7ec36.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "takeacar"});
