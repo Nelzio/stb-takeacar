@@ -11,10 +11,10 @@
         <div class="text-h6 q-mt-xl col-12 text-primary">
           Por favor preecher os seus dados pessoais
         </div>
-        <q-input class="col-12" v-model="text" label="Nome Completo" />
-        <q-input class="col-12" v-model="text" label="exemplo@gmail.com" />
-        <q-input class="col-12" v-model="text" label="Contacto" />
-        <q-input class="col-12" v-model="text" label="Montante Disponivel" />
+        <q-input class="col-12" v-model="name" label="Nome Completo" />
+        <q-input class="col-12" v-model="email" label="exemplo@gmail.com" />
+        <q-input class="col-12" v-model="number" label="Contacto" />
+        <q-input class="col-12" v-model="money" label="Montante Disponivel" />
         <div class="text-h6 q-mt-md col-12 text-grey">
           modalidade de pagamento
         </div>
@@ -42,7 +42,11 @@ export default {
     return {
       text: '',
       check1: '',
-      check2: ''
+      check2: '',
+      name: '',
+      email: '',
+      number: '',
+      money: ''
     }
   }
 }
