@@ -38,7 +38,18 @@ module.exports = function (ctx) {
         'QList',
         'QItem',
         'QItemSection',
-        'QItemLabel'
+        'QItemLabel',
+        'QInput',
+        'QBtnGroup',
+        'QFooter',
+        'QScrollArea',
+        'QImg',
+        'QCheckbox',
+        'QCard',
+        'QCardSection',
+        'QCardActions',
+        'QSeparator',
+        'QBadge'
       ],
 
       directives: [
@@ -67,7 +78,7 @@ module.exports = function (ctx) {
         cfg.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+          // loader: 'eslint-loader',
           exclude: /node_modules/
         })
       }
