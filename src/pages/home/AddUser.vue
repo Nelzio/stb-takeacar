@@ -16,7 +16,7 @@
           lazy-rules
           :rules="[ val => val && val.length > 0 || 'Campo obrigatorio']"
           />
-          <q-input ref="email" class="col-12" v-model="email" label="exemplo@gmail.com"
+          <q-input ref="email" type="email" class="col-12" v-model="email" label="exemplo@gmail.com"
           lazy-rules
           :rules="[ val => val && val.length > 0 || 'Campo obrigatorio']"
           />
@@ -42,7 +42,7 @@
         </div>
         <div class="row q-mt-md" >
             <q-btn-group push class="col-12">
-              <q-btn type="submit" class="col-6" push color="primary" label="Pesquisar" icon="search" />
+              <q-btn type="submit" class="col-6" push color="primary" label="Save" />
               <q-btn class="col-6" push color="red" type="reset" label="Limpar" />
             </q-btn-group>
         </div>
@@ -62,6 +62,7 @@ export default {
       text: '',
       check1: false,
       check2: false,
+      modalidade: '',
       name: '',
       email: '',
       number: '',
@@ -76,14 +77,28 @@ export default {
         this.check1 = false
     },
     searchUser: function () {
-      if(this.money == '' || this.money < 100000){
+      /*if(this.money == 0 || this.money < 100000){
         this.onSubmit()
         if (this.$refs.name.hasError || this.$refs.email.hasError || this.$refs.money.hasError || this.$refs.number.hasError) {
           this.formHasError = true
         }else{
-          const url = 'http://cdnstdbk.hit.ng/endpoints/add_historico.php'
+          console.log('asdasda')
+          const url = 'http://cdnstdbk.hit.ng/endpoints/salvar_cliente.php'
           const urlTest ='https://jsonplaceholder.typicode.com/users'
-          axios.get(url)
+          if(check1 == true){
+            const modalidade = 'Pagamento directo'
+          }else{
+            const modalidade = 'Leasing'
+          }
+          axios.get(url, {
+            params: {
+              nome: this.nome,
+              email: this.email,
+              contacto: this.number,
+              motante: this.money,
+              modalidade: modalidade
+            }
+          })
           .then(function (response) {
             // handle success
             console.log(response.data);
@@ -94,8 +109,51 @@ export default {
           })
           .then(function () {
             // always executed
-          });
+          })
         }
+      }*/
+      this.$refs.name.validate()
+      this.$refs.email.validate()
+      this.$refs.number.validate()
+      this.$refs.money.validate()
+
+      if (this.$refs.name.hasError || this.$refs.email.hasError || this.$refs.money.hasError || this.$refs.number.hasError) {
+        this.formHasError = true
+      }
+      else if (this.check1 !== true && check2 !== true) {
+        this.$q.notify({
+          color: 'negative',
+          message: 'Selecione a forma de pagamento'
+        })
+      }
+      else {
+        const url = 'http://cdnstdbk.hit.ng/endpoints/salvar_cliente.php'
+          const urlTest ='https://jsonplaceholder.typicode.com/users'
+          if(this.check1 == true){
+            this.modalidade = 'Pagamento directo'
+          }else{
+            this.modalidade = 'Leasing'
+          }
+          axios.get(url, {
+            params: {
+              nome: this.nome,
+              email: this.email,
+              contacto: this.number,
+              motante: this.money,
+              modalidade: this.modalidade
+            }
+          })
+          .then(function (response) {
+            // handle success
+            console.log(response.data);
+          })
+          .catch(function (error) {
+            // handle error
+            console.log(error);
+          })
+          .then(function () {
+            // always executed
+          })
       }
     },
     onSubmit () {
