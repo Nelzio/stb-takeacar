@@ -56,16 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/KFOmCnqEu92Fr1Mu4mxM.bafb105b.woff"
   },
   {
+    "revision": "de8b7431b74642e830af4d4f4b513ec9",
+    "url": "/fonts/KFOlCnqEu92Fr1MmEU9fBBc-.de8b7431.woff"
+  },
+  {
     "revision": "cf6613d1adf490972c557a8e318e0868",
     "url": "/fonts/KFOlCnqEu92Fr1MmWUlfBBc-.cf6613d1.woff"
   },
   {
     "revision": "8c2ade503b34e31430d6c98aa29a52a3",
     "url": "/fonts/KFOlCnqEu92Fr1MmYUtfBBc-.8c2ade50.woff"
-  },
-  {
-    "revision": "de8b7431b74642e830af4d4f4b513ec9",
-    "url": "/fonts/KFOlCnqEu92Fr1MmEU9fBBc-.de8b7431.woff"
   },
   {
     "revision": "bca3a1873ac988faff0817eca96b2d86",
@@ -92,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/Imagens/huynday.png"
   },
   {
+    "revision": "3020c8ac2c2872dec7741e5948520093",
+    "url": "/statics/quasar-logo.png"
+  },
+  {
     "revision": "da2b422e2895b9b9c1782a71b6be9d63",
     "url": "/statics/icons/apple-icon-152x152.png"
   },
@@ -108,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/icons/ms-icon-144x144.png"
   },
   {
-    "revision": "3020c8ac2c2872dec7741e5948520093",
-    "url": "/statics/quasar-logo.png"
+    "revision": "7a34f3eb64a2aa5361253f123ce59301",
+    "url": "/statics/Imagens/toyota-logo.png"
   },
   {
     "revision": "66d7719a8ca03c1a591444c013802817",
@@ -120,24 +124,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/Imagens/ford+grey.png"
   },
   {
-    "revision": "7a34f3eb64a2aa5361253f123ce59301",
-    "url": "/statics/Imagens/toyota-logo.png"
-  },
-  {
     "revision": "04142e4cd67cbe858d881e2c2aaf6f12",
     "url": "/statics/Imagens/semafuro.png"
   },
   {
-    "revision": "4cab443ad65b024fb5a9bef19497d5ff",
-    "url": "/statics/Imagens/bmw.png"
+    "revision": "a13b2bd5261e2df374128df1aab93001",
+    "url": "/statics/icons/icon-512x512.png"
   },
   {
     "revision": "4e8ec6944deb525f2a38343b34dd4ecc",
     "url": "/statics/Imagens/semafuro.xcf"
   },
   {
-    "revision": "a13b2bd5261e2df374128df1aab93001",
-    "url": "/statics/icons/icon-512x512.png"
+    "revision": "4cab443ad65b024fb5a9bef19497d5ff",
+    "url": "/statics/Imagens/bmw.png"
   },
   {
     "revision": "0003dfb73239341814e0026a0d290453",
