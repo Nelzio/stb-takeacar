@@ -19,4 +19,4 @@ yarn-error.log*
 *.sln
 
 # npm dependeces
-package-lock.json
+yarn.lock
