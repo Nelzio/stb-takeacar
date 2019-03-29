@@ -76,7 +76,7 @@ export default {
         this.check1 = false
     },
     searchUser: function () {
-      if(this.money == '' || this.money < 100000){
+      if(this.money > 100000){
         this.onSubmit()
         if (this.$refs.name.hasError || this.$refs.email.hasError || this.$refs.money.hasError || this.$refs.number.hasError) {
           this.formHasError = true
@@ -96,7 +96,13 @@ export default {
             // always executed
           });
         }
+        this.$router.push("/cars")
+      }else{
+        this.$router.push("/nocars")
       }
+    },
+    toRouter (router_to){
+      this.$router.push(router_to)
     },
     onSubmit () {
       this.$refs.name.validate()

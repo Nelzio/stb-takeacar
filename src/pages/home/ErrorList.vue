@@ -24,7 +24,7 @@
     <div class="row justify-center q-ma-xl">
       <div class="col-3">
         <div class="row">
-          <q-btn class="col-12" color="primary" label="Voltar" />
+          <q-btn @click.native="backPage()" class="col-12" color="primary" label="Voltar" />
         </div>
       </div>
     </div>
@@ -36,6 +36,11 @@
 <script>
 export default {
   // name: 'PageName',
+  methods: {
+    backPage: function () {
+      this.$router.go(-1)
+    },
+  }
 }
 </script>
 
